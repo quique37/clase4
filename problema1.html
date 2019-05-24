@@ -3,7 +3,12 @@
     <head>  
         <meta charset="utf-8">
         <script type="application/javascript">
-        alert("Hola mundo")
+        const sueldoPorHora = parseFloat(prompt("¿Cuál es tu sueldo por hora?"))
+        const meta = parseFloat(prompt("¿Cuál es tu meta de ahorro?"))
+        const horasPorTrabajar = meta / sueldoPorHora
+        alert("Horas por trabajar "+ horasPorTrabajar)
+        const diasPorTrabajar = horasPorTrabajar / 8
+        alert("Dias por trabajar (jornada de 8 horas) "+ diasPorTrabajar)
         </script>
     </head>
     <body>
